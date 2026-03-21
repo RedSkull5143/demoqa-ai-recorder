@@ -27,8 +27,8 @@ public class BookStorePage extends AbstractPage {
         return this.userLabel.getText();
     }
 
-    public void logout() throws InterruptedException {
-        Thread.sleep(5000);
+    public void logout() {
+        this.wait.until(ExpectedConditions.elementToBeClickable(this.logoutButton));
         this.logoutButton.click();
     }
 

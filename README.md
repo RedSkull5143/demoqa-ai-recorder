@@ -14,7 +14,7 @@ Record once → AI understands → Get production-ready test code in your framew
 
 ## Project Phases
 - [x] Phase 1 — Base framework (DemoQA)
-- [ ] Phase 2 — Browser action recorder
+- [x] Phase 2 — Browser action recorder
 - [ ] Phase 3 — AI mapper (recorded actions → framework methods)
 - [ ] Phase 4 — Code generator (TestNG class + JSON output)
 

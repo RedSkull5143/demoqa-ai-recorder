@@ -1,0 +1,15 @@
+# Maven
+target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Environment
+.env
+
+# Logs
+*.log
+output.txt

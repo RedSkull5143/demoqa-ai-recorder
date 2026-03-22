@@ -13,6 +13,9 @@ public class JsonUtil {
 
     public static <T> T getTestData(String path, Class<T> type) {
         try (InputStream stream = JsonUtil.class.getClassLoader().getResourceAsStream(path)) {
+            if (stream == null) {
+                throw new IllegalArgumentException("test data file not found: " + path);
+            }
             return mapper.readValue(stream, type);
         } catch (Exception e) {
             log.error("unable to read test data {}", path, e);

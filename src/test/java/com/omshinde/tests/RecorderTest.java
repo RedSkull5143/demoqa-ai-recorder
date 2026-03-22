@@ -25,11 +25,12 @@ public class RecorderTest {
         ActionRecorder ar = new ActionRecorder(driver);
         ar.navigateTo("https://demoqa.com/login");
 
-        Thread.sleep(15000);
-
+        long end = System.currentTimeMillis() + 30000;
+        while (System.currentTimeMillis() < end) {
+            ar.ensureRecorderActive();
+            Thread.sleep(500);
+        }
         ar.saveActions("recorded-actions.json");
-
-
         driver.quit();
     }
 

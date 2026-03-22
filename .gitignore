@@ -13,3 +13,8 @@ target/
 # Logs
 *.log
 output.txt
+
+vector_db/
+.env
+__pycache__/
+*.pyc

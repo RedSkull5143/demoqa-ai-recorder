@@ -1,0 +1,37 @@
+[
+  {
+    "action": "click",
+    "id": "userName",
+    "name": "",
+    "tag": "INPUT",
+    "text": ""
+  },
+  {
+    "action": "input",
+    "id": "userName",
+    "name": "",
+    "tag": "INPUT",
+    "value": "admin"
+  },
+  {
+    "action": "input",
+    "id": "password",
+    "name": "",
+    "tag": "INPUT",
+    "value": "Abcd@1234"
+  },
+  {
+    "action": "click",
+    "id": "login",
+    "name": "",
+    "tag": "BUTTON",
+    "text": "Login"
+  },
+  {
+    "action": "click",
+    "id": "submit",
+    "name": "",
+    "tag": "BUTTON",
+    "text": "Logout"
+  }
+]

@@ -1,0 +1,8 @@
+<suite name="Register Test Suite">
+    <test name="Register Test">
+        <parameter name="testDataPath" value="test-data/register.json"/>
+        <classes>
+            <class name="com.omshinde.tests.RegisterTest"/>
+        </classes>
+    </test>
+</suite>
